@@ -10,37 +10,38 @@
         <div class="text-sm text-white font-normal mt-4 tracking-normal">
           Get the
           <span class="font-bold text-md">Import Duty Estimate</span> For Your Automobile
+          in Ghana
         </div>
-        <form action="">
-          <div
-            class="flex space-x-2 md:-mx-5 py-2 rounded-md bg-white border-gray-200 hover:border-gray-300 focus:outline-none focus:border-blue-500 transition-colors"
+        <div
+          class="flex space-x-2 md:-mx-5 py-2 rounded-md bg-white border-gray-200 hover:border-gray-300 focus:outline-none focus:border-blue-500 transition-colors"
+        >
+          <input
+            type="text"
+            id="password"
+            class="w-full pl-3 pr-10 py-2 focus:outline-none text-lg text-black font-normal k"
+            placeholder="Enter your VIN..."
+          />
+          <button
+            class="block px-4 font-medium text-lg text-center text-blue-900 leading-0 focus:outline-none hover:text-gray-900 transition-colors"
+            @click.prevent="showhome = !showhome"
           >
-            <input
-              type="text"
-              id="password"
-              class="w-full pl-3 pr-10 py-2 focus:outline-none text-lg text-black font-normal k"
-              placeholder="Enter your VIN..."
-            />
-            <button
-              class="block px-4 font-medium text-lg text-center text-blue-900 leading-0 focus:outline-none hover:text-gray-900 transition-colors"
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-7 w-7"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              @click.prevent="togglehome()"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-7 w-7"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                />
-              </svg>
-            </button>
-          </div>
-        </form>
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
+          </button>
+        </div>
 
         <div
           class="flex flex-col w-full items-center space-y-3 md:flex-row justify-between h-auto relative md:space-x-3 md:space-y-0"
@@ -96,56 +97,38 @@
     <!-- component -->
     <div class="max-w-screen-lg mx-auto">
       <main class="mt-10">
-        <div class="md:mb-0 w-full mx-auto relative">
-          <div class="pl-3 lg:px-0 border-l-4 py-2 border-blue-500">
-            <h2
-              class="text-2xl font-extrabold text-gray-800 leading-tight ml-3 tracking-tight"
-            >
-              What is a Vehicle Identification Number (VIN)?
-            </h2>
-          </div>
-        </div>
-
-        <div class="flex flex-col lg:flex-row lg:space-x-12">
-          <div class="px-4 lg:px-0 mt-10 text-gray-800 text-lg leading-relaxed w-full">
-            <p class="ml-3 tracking-tight">
-              The car's vehicle identification number (VIN) is the identifying code for a
-              SPECIFIC automobile. The VIN serves as the car's fingerprint, as no two
-              vehicles in operation have the same VIN. A VIN is composed of 17 characters
-              (digits and capital letters) that act as a unique identifier for the
-              vehicle. A VIN displays the car's unique features, specifications and
-              manufacturer. The VIN can be used to track recalls, registrations, warranty
-              claims, thefts and insurance coverage.
-            </p>
-            <div
-              class="-ml-4 lg:ml-0 pl-4 lg:px-0 border-l-4 py-2 mb-10 border-blue-500 mt-10"
-            >
-              <h2 class="text-2xl text-gray-800 font-extrabold ml-3 tracking-tight">
-                VIN Decode Explained
-              </h2>
-            </div>
-            <img class="mx-auto" src="./assets/vin.jpg" alt="" />
-            <div
-              class="-ml-4 lg:ml-0 pl-4 lg:px-0 border-l-4 py-2 border-blue-500 mt-10 mb-10"
-            >
-              <h2 class="text-2xl text-gray-900 font-extrabold ml-3 tracking-tight">
-                Where can I locate the VIN of a car?
-              </h2>
-            </div>
-
-            <p class="ml-3 text-gray-800 tracking-tight">
-              The VIN can be found by looking at the dashboard on the driver's side of the
-              vehicle. The easiest way to view it is to stand outside the vehicle on the
-              driver's side and look at the corner of the dashboard where it meets the
-              windshield. If the VIN cannot be found there, open the driver's side door
-              and look at the door post (where the door latches when it is closed). It is
-              likely that the VIN will also be displayed in this location.
-            </p>
-
-            <img src="./assets/VIN-Locations.jpg" alt="Vin Location on the car" />
-          </div>
-        </div>
+        <Vindetail v-if="!showhome" />
+        <Homepage v-if="showhome" />
       </main>
+    </div>
+    <div class="sticky bottom-10 left-0 mb-4 mr-4 z-10">
+      <div class="flex flex-row-reverse space-x-4 items-center">
+        <a
+          title="Share our Pageon Twitter"
+          href=""
+          target="_blank"
+          class="block w-10 h-10 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12 ml-2"
+        >
+          <img
+            class="object-cover object-center w-full h-full rounded-full"
+            src="./assets/twitter.svg"
+          />
+        </a>
+        <a
+          title="Share our Page on Whatsapp"
+          href=""
+          target="_blank"
+          class="block w-100 h-10 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12"
+        >
+          <img
+            class="object-cover object-center w-full h-full rounded-full"
+            src="./assets/whatsapp.svg"
+          />
+        </a>
+        <p class="text-md font-semibold tracking-tight text-blue-700 hidden md:contents">
+          Please share our Page
+        </p>
+      </div>
     </div>
     <footer>
       <div
@@ -157,7 +140,27 @@
   </div>
 </template>
 
-<script></script>
+<script>
+import Homepage from "./components/homepage.vue";
+import Vindetail from "./components/vindetail.vue";
+import duty from "./components/duty.vue";
+
+export default {
+  components: { Homepage, Vindetail, duty },
+  data() {
+    return {
+      showhome: true,
+      showvin: false,
+    };
+  },
+  methods: {
+    togglehome() {
+      this.showhome = !showhome;
+      this.showvin = !showvin;
+    },
+  },
+};
+</script>
 <style>
 .hero {
   background: linear-gradient(
@@ -167,5 +170,9 @@
       rgba(9, 9, 220, 0.25)
     ),
     linear-gradient(0.3turn, rgb(0, 89, 179), rgb(0, 128, 255) 30%, rgb(85, 0, 255));
+}
+
+.new_hero {
+  background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
 }
 </style>
