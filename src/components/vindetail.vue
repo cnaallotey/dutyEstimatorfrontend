@@ -185,7 +185,7 @@
           </dl>
         </div>
         <div class="p-5 md:py-0 md:pr-0 md:w-2/5">
-          <div class="border p-5 space-y-5 md:h-full">
+          <div class="border bg-white p-5 space-y-5 md:h-full">
             <div class="border-b pb-5">
               <h1 class="text-2xl font-semibold tracking-tight text-gray-900">
                 Found 1 Auction Record
@@ -369,7 +369,7 @@
           </div>
         </div>
       </div>
-      <div class="w-full mt-10 space-y-3 flex flex-col items-center mb-10">
+      <!--<div class="w-full mt-10 space-y-3 flex flex-col items-center mb-10">
         <h1 class="text-2xl font-semibold tracking-normal">
           Your Duty Estimate is Ready
         </h1>
@@ -378,7 +378,7 @@
         >
           Click to View
         </button>
-      </div>
+      </div>-->
     </div>
   </div>
 </template>

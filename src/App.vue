@@ -106,7 +106,7 @@
       <div class="flex flex-row-reverse space-x-4 items-center">
         <a
           title="Share our Pageon Twitter"
-          href=""
+          href="https://twitter.com/intent/tweet?text=Visit Ghanadutestimator.com to check your Vehicle Import Duty"
           target="_blank"
           class="block w-10 h-10 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12 ml-2"
         >
@@ -117,7 +117,7 @@
         </a>
         <a
           title="Share our Page on Whatsapp"
-          href=""
+          href="whatsapp://send?text=Visit Ghanadutestimator.com to check your Vehicle Import Duty"
           target="_blank"
           class="block w-100 h-10 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12"
         >
