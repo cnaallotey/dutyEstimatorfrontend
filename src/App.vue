@@ -4,13 +4,14 @@
       class="font-sans flex pt-5 md:pt-32 pb-10 md:pb-10 justify-center hero shadow-md"
     >
       <div class="pr-5 pl-5 text-center max-w-2xl space-y-10 md:space-y-10">
-        <div class="md:text-6xl text-5xl font-semibold tracking-tight text-white">
-          Car Duty Estimater
+        <div
+          class="md:text-6xl text-5xl font-semibold tracking-tight leading-snug md:leading-tight text-white"
+        >
+          Calculate your Vehicle Duty
         </div>
-        <div class="text-sm text-white font-normal mt-4 tracking-normal">
-          Get the
-          <span class="font-bold text-md">Import Duty Estimate</span> For Your Automobile
-          in Ghana
+        <div class="text-sm text-white font-normal mt-4 tracking-loose">
+          Get an
+          <span class="font-bold text-md">Estimated Import Duty</span> For Your Vehicle
         </div>
         <div
           class="flex space-x-2 md:-mx-5 py-2 rounded-md bg-white border-gray-200 hover:border-gray-300 focus:outline-none focus:border-blue-500 transition-colors"
@@ -44,7 +45,7 @@
         </div>
 
         <div
-          class="flex flex-col w-full items-center space-y-3 md:flex-row justify-between h-auto relative md:space-x-3 md:space-y-0"
+          class="flex flex-col w-full items-center space-y-3 md:flex-row justify-between h-auto relative md:space-x-2 md:space-y-0"
         >
           <div class="flex text-sm text-white font-medium space-x-1">
             <svg
@@ -74,7 +75,7 @@
                 clip-rule="evenodd"
               />
             </svg>
-            <p class="tracking-tight font-normal">Most recent payments</p>
+            <p class="tracking-tight font-normal">Most recent Duty Payments</p>
           </div>
           <div class="flex text-sm text-white font-medium space-x-1">
             <svg
@@ -89,7 +90,7 @@
                 clip-rule="evenodd"
               />
             </svg>
-            <p class="tracking-tight font-normal">Accurate Automobile Information</p>
+            <p class="tracking-tight font-normal">Accurate Vehicle Information</p>
           </div>
         </div>
       </div>
@@ -125,7 +126,7 @@
             src="./assets/whatsapp.svg"
           />
         </a>
-        <p class="text-md font-semibold tracking-tight text-blue-700 hidden md:contents">
+        <p class="text-md font-semibold tracking-tight text-blue-700 hidden lg:contents">
           Please share our Page
         </p>
       </div>
