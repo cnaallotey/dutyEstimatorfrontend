@@ -98,8 +98,9 @@
     <!-- component -->
     <div class="max-w-screen-lg mx-auto">
       <main class="mt-10">
-        <Vindetail v-if="!showhome" />
-        <Homepage v-if="showhome" />
+        <!-- <Vindetail v-if="!showhome" />
+        <Homepage v-if="showhome" />-->
+        <carreport />
       </main>
     </div>
     <div class="sticky bottom-10 left-0 mb-4 mr-4 z-10">
@@ -126,7 +127,7 @@
             src="./assets/whatsapp.svg"
           />
         </a>
-        <p class="text-md font-semibold tracking-tight text-blue-700 hidden lg:contents">
+        <p class="text-md font-semibold tracking-tight text-gray-700 hidden lg:contents">
           Please share our Page
         </p>
       </div>
@@ -145,9 +146,10 @@
 import Homepage from "./components/homepage.vue";
 import Vindetail from "./components/vindetail.vue";
 import duty from "./components/duty.vue";
+import carreport from "./components/carreport.vue";
 
 export default {
-  components: { Homepage, Vindetail, duty },
+  components: { Homepage, Vindetail, duty, carreport },
   data() {
     return {
       showhome: true,

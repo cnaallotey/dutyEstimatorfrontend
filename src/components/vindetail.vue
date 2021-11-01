@@ -75,7 +75,7 @@
     </div>
 
     <div>
-      <div class="px-4 py-5 sm:px-6">
+      <div class="py-5 px-5 md:px-0">
         <h3 class="text-2xl font-semibold tracking-tight text-gray-900 mt-10 md:mt-0">
           More Information
         </h3>

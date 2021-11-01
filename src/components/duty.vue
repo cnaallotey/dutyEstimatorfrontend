@@ -19,3 +19,44 @@
     </div>
   </div>
 </template>
+
+<script>
+// <!----><div
+//       class="flex flex-col items-center md:space-y-5 justify-between space-y-10 mb-5 p-5 md:p-0 md:w-1/2"
+//     >
+//       <div class="">
+//         <img src="../assets/resizer.jpg" class="h-full" alt="" />
+//       </div>
+//       <div class="h-full">
+//         <div
+//           class="flex flex-wrap items-stretch -mx-3 overflow-hidden sm:-mx-3 md:-mx-3 lg:-mx-3 xl:-mx-3"
+//         >
+//           <div
+//             class="my-2 px-3 w-1/2 overflow-hidden sm:my-2 sm:px-3 sm:w-1/2 md:my-2 md:px-3 md:w-1/2 lg:my-2 lg:px-3 lg:w-1/2 xl:my-2 xl:px-3 xl:w-1/2"
+//           >
+//             <!-- Column Content -->
+//             <img src="../assets/resizer.jpg" class="" alt="" />
+//           </div>
+
+//           <div
+//             class="my-2 px-3 w-1/2 overflow-hidden sm:my-2 sm:px-3 sm:w-1/2 md:my-2 md:px-3 md:w-1/2 lg:my-2 lg:px-3 lg:w-1/2 xl:my-2 xl:px-3 xl:w-1/2"
+//           >
+//             <!-- Column Content -->
+//             <img src="../assets/resizer.jpg" class="" alt="" />
+//           </div>
+
+//           <div
+//             class="my-2 px-3 w-1/2 overflow-hidden sm:my-2 sm:px-3 sm:w-1/2 md:my-2 md:px-3 md:w-1/2 lg:my-2 lg:px-3 lg:w-1/2 xl:my-2 xl:px-3 xl:w-1/2"
+//           >
+//             <!-- Column Content -->
+//             <img src="../assets/resizer.jpg" class="" alt="" />
+//           </div>
+
+//           <div
+//             class="my-2 px-3 w-1/2 overflow-hidden sm:my-2 sm:px-3 sm:w-1/2 md:my-2 md:px-3 md:w-1/2 lg:my-2 lg:px-3 lg:w-1/2 xl:my-2 xl:px-3 xl:w-1/2"
+//           >
+//             <!-- Column Content -->
+//             <img src="../assets/resizer.jpg" class="" alt="" />
+//           </div>
+//         </div>
+</script>
