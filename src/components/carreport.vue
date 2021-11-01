@@ -301,160 +301,178 @@
     <div class="mx-5 lg:mx-0 white md:pt-5 p-5 md:p-0">
       <div class="space-x-2 flex flex-col items-center mb-5">
         <h1
-          class="font-bold text-3xl text-gray-900 text-center tracking-tight flex flex-col md:flex-row items-center"
+          class="font-bold text-3xl text-gray-900 tracking-tight flex flex-col md:flex-row items-center"
         >
           Duty Per Trim
         </h1>
       </div>
-      <table class="min-w-full block md:table">
+      <table class="min-w-full block md:table border">
         <thead class="block md:table-header-group">
           <tr
             class="block md:table-row absolute -top-full md:top-auto -left-full md:left-auto md:relative bg-gray-100 border-b-2"
           >
             <th
-              class="px-5 py-5 text-gray-500 uppercase text-xs font-bold text-left block md:table-cell"
+              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
             >
               Trim Level
             </th>
             <th
-              class="px-2 py-5 text-gray-500 uppercase text-xs font-bold text-left block md:table-cell"
+              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
             >
               HDV
             </th>
             <th
-              class="px-2 py-5 text-gray-500 uppercase text-xs font-bold text-left block md:table-cell"
+              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
             >
               Origin Code
             </th>
             <th
-              class="px-2 py-5 text-gray-500 uppercase text-xs font-bold text-left block md:table-cell"
+              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
             >
               CIF NCY
             </th>
             <th
-              class="px-2 py-5 text-gray-500 uppercase text-xs font-bold text-left block md:table-cell"
+              class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
             >
               Total Tax
             </th>
           </tr>
         </thead>
-        <tbody class="block md:table-row-group font-semibold text-gray-900">
+        <tbody class="block md:table-row-group font-medium text-gray-500">
           <tr class="bg-white block md:table-row">
-            <td class="px-2 md:px-5 py-5 text-left block md:table-cell">
+            <td
+              class="px-6 py-4 whitespace-nowrap text-left block md:table-cell tracking-tight"
+            >
               <span class="inline-block w-1/3 md:hidden font-bold">Trim Level</span>SPORT
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">HDV</span>26,180
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">Origin Code</span>CA
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap5 text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">CIF NCY</span>$
               92,749.8
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell font-bold text-blue-500">
+            <td
+              class="px-6 py-4 whitespace-nowrap text-left block md:table-cell font-bold text-blue-500"
+            >
               <span class="inline-block w-1/3 md:hidden font-bold">Total Tax</span>$
               32,311.7
             </td>
           </tr>
           <tr class="bg-gray-100 block md:table-row">
-            <td class="px-2 md:px-5 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">Trim Level</span>SPORT
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">HDV</span>26,180
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">Origin Code</span>CA
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">CIF NCY</span>$
               92,749.8
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell font-bold text-blue-500">
+            <td
+              class="px-6 py-4 whitespace-nowrap text-left block md:table-cell font-bold text-blue-500"
+            >
               <span class="inline-block w-1/3 md:hidden font-bold">Total Tax</span>$
               32,311.7
             </td>
           </tr>
           <tr class="bg-white block md:table-row">
-            <td class="px-2 md:px-5 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">Trim Level</span>SPORT
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">HDV</span>26,180
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">Origin Code</span>CA
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">CIF NCY</span>$
               92,749.8
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell font-bold text-blue-500">
+            <td
+              class="px-6 py-4 whitespace-nowrap text-left block md:table-cell font-bold text-blue-500"
+            >
               <span class="inline-block w-1/3 md:hidden font-bold">Total Tax</span>$
               32,311.7
             </td>
           </tr>
           <tr class="bg-gray-100 block md:table-row">
-            <td class="px-2 md:px-5 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">Trim Level</span>SPORT
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">HDV</span>26,180
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">Origin Code</span>CA
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">CIF NCY</span>$
               92,749.8
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell font-bold text-blue-500">
+            <td
+              class="px-6 py-4 whitespace-nowrap text-left block md:table-cell font-bold text-blue-500"
+            >
               <span class="inline-block w-1/3 md:hidden font-bold">Total Tax</span>$
               32,311.7
             </td>
           </tr>
           <tr class="bg-white block md:table-row">
-            <td class="px-2 md:px-5 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">Trim Level</span>SPORT
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">HDV</span>26,180
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">Origin Code</span>CA
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">CIF NCY</span>$
               92,749.8
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell font-bold text-blue-500">
+            <td
+              class="px-6 py-4 whitespace-nowrap text-left block md:table-cell font-bold text-blue-500"
+            >
               <span class="inline-block w-1/3 md:hidden font-bold">Total Tax</span>$
               32,311.7
             </td>
           </tr>
           <tr class="bg-gray-100 block md:table-row">
-            <td class="px-2 md:px-5 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">Trim Level</span>SPORT
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">HDV</span>26,180
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">Origin Code</span>CA
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell">
+            <td class="px-6 py-4 whitespace-nowrap text-left block md:table-cell">
               <span class="inline-block w-1/3 md:hidden font-bold">CIF NCY</span>$
               92,749.8
             </td>
-            <td class="px-2 py-5 text-left block md:table-cell font-bold text-blue-500">
+            <td
+              class="px-6 py-4 whitespace-nowrap text-left block md:table-cell font-bold text-blue-500"
+            >
               <span class="inline-block w-1/3 md:hidden font-bold">Total Tax</span>$
               32,311.7
             </td>
           </tr>
         </tbody>
       </table>
+      <div class="flex flex-row items-center justify-end -mr-7 -mt-5">
+        <p class="text-xs font-semibold text-gray-500">source:</p>
+        <img src="../assets/icums.png" class="w-32 -ml-7" alt="" />
+      </div>
     </div>
   </div>
 </template>
