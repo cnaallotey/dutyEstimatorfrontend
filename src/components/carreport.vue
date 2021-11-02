@@ -4,9 +4,9 @@
       class="flex flex-col items-center md:flex-row mb-10 md:pl-0 space-x-5 mx-5 lg:mx-0"
     >
       <div
-        class="flex flex-col md:flex-row items-center flex-1 w-full space-x-0 md:space-x-4"
+        class="flex flex-col md:flex-row items-center md:items-end flex-1 w-full space-x-0 md:space-x-4 space-y-4 md:space-y-0"
       >
-        <img src="../assets/Honda.png" class="w-40 mx-auto md:w-32 md:h-32" alt="" />
+        <img src="../assets/resizer.jpg" class="w-64 mx-auto md:w-64 rounded-lg" alt="" />
         <div
           class="text-center mx-auto w-full items-center justify-center text-white py-4 bg-blue-600 lg:rounded-none shadow-lg"
         >
@@ -16,168 +16,8 @@
         </div>
       </div>
     </div>
-    <div class="px-0 md:px-0 my-10 md:m-0">
-      <div
-        class="flex flex-wrap -mx-3 overflow-hidden p-5 md:p-0 lg:mb-10 cursor-pointer"
-      >
-        <div class="my-3 px-3 w-1/2 overflow-hidden sm:w-1/3 md:w-1/6 lg:w-1/6 xl:w-1/6">
-          <!-- Column Content -->
-          <div
-            class="flex p-5 flex-col justify-center items-center overflow-hidden space-y-2 hover:bg-blue-200 bg-blue-100 hover:shadow-sm h-full rounded-lg transition-colors"
-          >
-            <img
-              src="../assets/odometer1.svg"
-              class="w-20 p-3 bg-white rounded-full"
-              alt=""
-            />
-            <p class="font-semibold text-sm text-gray-500">Odometer</p>
-            <p class="text-center font-semibold text-xs text-red-600 tracking-tight">
-              3 problems Found
-            </p>
-          </div>
-        </div>
-
-        <div class="my-3 px-3 w-1/2 overflow-hidden sm:w-1/3 md:w-1/6 lg:w-1/6 xl:w-1/6">
-          <!-- Column Content -->
-          <div
-            class="flex p-5 flex-col justify-center items-center overflow-hidden space-y-2 hover:bg-blue-200 bg-blue-100 hover:shadow-sm h-full rounded-lg"
-          >
-            <img
-              src="../assets/seatbelt1.svg"
-              class="w-20 p-3 bg-white rounded-full"
-              alt=""
-            />
-            <p class="font-semibold text-sm text-gray-500 text-center">
-              Open Safety Recalls
-            </p>
-            <p class="text-center font-semibold text-xs text-red-600 tracking-tight">
-              2 problems Found
-            </p>
-          </div>
-        </div>
-
-        <div class="my-3 px-3 w-1/2 overflow-hidden sm:w-1/3 md:w-1/6 lg:w-1/6 xl:w-1/6">
-          <!-- Column Content -->
-          <div
-            class="flex p-5 flex-col justify-center h-full items-center overflow-hidden space-y-2 hover:bg-blue-200 bg-blue-100 hover:shadow-sm rounded-lg"
-          >
-            <img
-              src="../assets/accidents.svg"
-              class="w-20 p-3 bg-white rounded-full"
-              alt=""
-            />
-            <p class="font-semibold text-sm text-gray-500">Accidents</p>
-            <p class="text-center font-semibold text-xs text-red-600 tracking-tight">
-              3 problems Found
-            </p>
-          </div>
-        </div>
-
-        <div class="my-3 px-3 w-1/2 overflow-hidden sm:w-1/3 md:w-1/6 lg:w-1/6 xl:w-1/6">
-          <!-- Column Content -->
-          <div
-            class="flex p-5 flex-col justify-center items-center overflow-hidden space-y-2 hover:bg-blue-200 bg-blue-100 hover:shadow-sm h-full rounded-lg"
-          >
-            <img src="../assets/road.svg" class="w-20 p-3 bg-white rounded-full" alt="" />
-            <p class="font-semibold text-sm text-gray-500">Mileage</p>
-            <p class="text-center font-bold text-xs text-blue-500 tracking-tight">
-              4,495 miles
-              <span class="text-gray-900 font-semibold">(Last odometer reading)</span>
-            </p>
-          </div>
-        </div>
-
-        <div class="my-3 px-3 w-1/2 overflow-hidden sm:w-1/3 md:w-1/6 lg:w-1/6 xl:w-1/6">
-          <!-- Column Content -->
-          <div
-            class="flex p-5 flex-col justify-center items-center overflow-hidden space-y-2 hover:bg-blue-200 bg-blue-100 hover:shadow-sm h-full rounded-lg"
-          >
-            <img
-              src="../assets/car-sale1.svg"
-              class="w-20 p-3 bg-white rounded-full"
-              alt=""
-            />
-            <p class="font-semibold text-sm text-gray-500">Sale History</p>
-            <p class="text-center font-bold text-xs text-blue-500 tracking-tight">
-              10 <span class="font-semibold text-gray-900"> sales found</span>
-            </p>
-          </div>
-        </div>
-
-        <div class="my-3 px-3 w-1/2 overflow-hidden sm:w-1/3 md:w-1/6 lg:w-1/6 xl:w-1/6">
-          <!-- Column Content -->
-          <div
-            class="flex p-5 flex-col justify-center items-center overflow-hidden space-y-2 hover:bg-blue-200 bg-blue-100 hover:shadow-sm h-full rounded-lg"
-          >
-            <img
-              src="../assets/group1.svg"
-              class="w-20 p-3 bg-white rounded-full"
-              alt=""
-            />
-            <p class="font-semibold text-sm text-gray-500">Owners History</p>
-            <p class="text-center font-semibold text-xs text-gray-900 tracking-tight">
-              2+ Owners
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="w-full mt-4">
-      <div class="flex flex-col w-full">
-        <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-          <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-4">
-            <div class="overflow-hidden p-4">
-              <table class="min-w-full divide-y divide-gray-200 border-b">
-                <tbody class="">
-                  <tr class="py-4">
-                    <td class="border p-4">
-                      <span>Vin</span><br />
-                      <span class="font-bold py-4">Not Applicable</span>
-                    </td>
-                    <td class="border p-4">
-                      <span class="">Make</span><br />
-                      <span class="font-bold py-4">Not Applicable</span>
-                    </td>
-                    <td class="border p-4">
-                      <span class="">Model</span><br />
-                      <span class="font-bold py-4">Not Applicable</span>
-                    </td>
-                    <td class="border p-4">
-                      <span>Year</span><br />
-                      <span class="font-bold py-4">Not Applicable</span>
-                    </td>
-                    <td class="border p-4">
-                      <span class="">Drive type</span><br />
-                      <span class="font-bold py-4">Not Applicable</span>
-                    </td>
-                  </tr>
-                  <tr class="py-4 mt-4">
-                    <td class="border p-4">
-                      <span class="">Style/Body</span><br />
-                      <span class="font-bold py-4">Not Applicable</span>
-                    </td>
-                    <td class="border p-4">
-                      <span class="">Engine</span><br />
-                      <span class="font-bold py-4">Not Applicable</span>
-                    </td>
-                    <td class="border p-4" colspan="2">
-                      <span class="">Manufacturer</span><br />
-                      <span class="font-bold py-4"> Not Applicable</span>
-                    </td>
-                    <td class="border p-4">
-                      <span>Age</span><br />
-                      <span class="font-bold py-4"> Not Applicable</span>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div
-      class="bg-blue-100 rounded-lg px-10 py-10 md:pb-10 my-10 mx-5 lg:mx-0 flex flex-col justify-center items-center"
+      class="bg-blue-100 rounded-lg px-10 py-10 md:pb-10 my-5 mx-5 lg:mx-0 flex flex-col justify-center items-center"
     >
       <div class="flex flex-col items-center mb-5 md:mb-0">
         <h1
@@ -298,13 +138,180 @@
         </div>
       </div>
     </div>
-    <div class="mx-5 lg:mx-0 white md:pt-5 p-5 md:p-0">
-      <div class="space-x-2 flex flex-col items-center mb-5">
-        <h1
-          class="font-bold text-3xl text-gray-900 tracking-tight flex flex-col md:flex-row items-center"
-        >
-          Duty Per Trim
-        </h1>
+    <div class="px-0 md:px-0 my-5 md:m-0">
+      <div
+        class="flex flex-wrap -mx-3 overflow-hidden p-5 md:p-0 lg:mb-10 cursor-pointer"
+      >
+        <div class="my-3 px-3 w-1/2 overflow-hidden sm:w-1/3 md:w-1/6 lg:w-1/6 xl:w-1/6">
+          <!-- Column Content -->
+          <div
+            class="flex p-5 flex-col justify-start items-center overflow-hidden space-y-2 hover:bg-blue-200 bg-blue-100 hover:shadow-sm h-full rounded-lg hover:border hover:border-blue-400"
+          >
+            <img
+              src="../assets/odometer1.svg"
+              class="w-20 p-3 bg-white rounded-full"
+              alt=""
+            />
+            <p class="font-semibold text-sm text-gray-500 text-center">Odometer</p>
+            <p class="text-center font-semibold text-xs text-red-600 tracking-tight">
+              3 problems Found
+            </p>
+          </div>
+        </div>
+
+        <div class="my-3 px-3 w-1/2 overflow-hidden sm:w-1/3 md:w-1/6 lg:w-1/6 xl:w-1/6">
+          <!-- Column Content -->
+          <div
+            class="flex p-5 flex-col justify-start items-center overflow-hidden space-y-2 hover:bg-blue-200 bg-blue-100 hover:shadow-sm h-full rounded-lg hover:border hover:border-blue-400"
+          >
+            <img
+              src="../assets/seatbelt1.svg"
+              class="w-20 p-3 bg-white rounded-full"
+              alt=""
+            />
+            <p class="font-semibold text-sm text-gray-500 text-center">
+              Open Safety Recalls
+            </p>
+            <p class="text-center font-semibold text-xs text-red-600 tracking-tight">
+              2 problems Found
+            </p>
+          </div>
+        </div>
+
+        <div class="my-3 px-3 w-1/2 overflow-hidden sm:w-1/3 md:w-1/6 lg:w-1/6 xl:w-1/6">
+          <!-- Column Content -->
+          <div
+            class="flex p-5 flex-col justify-start h-full items-center overflow-hidden space-y-2 hover:bg-blue-200 bg-blue-100 hover:shadow-sm rounded-lg hover:border hover:border-blue-400"
+          >
+            <img
+              src="../assets/accidents.svg"
+              class="w-20 p-3 bg-white rounded-full"
+              alt=""
+            />
+            <p class="font-semibold text-sm text-gray-500 text-center">Accidents</p>
+            <p class="text-center font-semibold text-xs text-red-600 tracking-tight">
+              3 problems Found
+            </p>
+          </div>
+        </div>
+
+        <div class="my-3 px-3 w-1/2 overflow-hidden sm:w-1/3 md:w-1/6 lg:w-1/6 xl:w-1/6">
+          <!-- Column Content -->
+          <div
+            class="flex p-5 flex-col justify-start items-center overflow-hidden space-y-2 hover:bg-blue-200 bg-blue-100 hover:shadow-sm h-full rounded-lg hover:border hover:border-blue-400"
+          >
+            <img src="../assets/road.svg" class="w-20 p-3 bg-white rounded-full" alt="" />
+            <p class="font-semibold text-sm text-gray-500">Mileage</p>
+            <p class="text-center font-bold text-xs text-blue-500 tracking-tight">
+              4,495 miles
+              <span class="text-gray-900 font-semibold">(Last odometer reading)</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="my-3 px-3 w-1/2 overflow-hidden sm:w-1/3 md:w-1/6 lg:w-1/6 xl:w-1/6">
+          <!-- Column Content -->
+          <div
+            class="flex p-5 flex-col justify-start items-center overflow-hidden space-y-2 hover:bg-blue-200 bg-blue-100 hover:shadow-sm h-full rounded-lg hover:border hover:border-blue-400"
+          >
+            <img
+              src="../assets/car-sale1.svg"
+              class="w-20 p-3 bg-white rounded-full"
+              alt=""
+            />
+            <p class="font-semibold text-sm text-gray-500 text-center">Sale History</p>
+            <p class="text-center font-bold text-xs text-blue-500 tracking-tight">
+              10 <span class="font-semibold text-gray-900"> sales found</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="my-3 px-3 w-1/2 overflow-hidden sm:w-1/3 md:w-1/6 lg:w-1/6 xl:w-1/6">
+          <!-- Column Content -->
+          <div
+            class="flex p-5 flex-col justify-start items-center overflow-hidden space-y-2 hover:bg-blue-200 bg-blue-100 hover:shadow-sm h-full rounded-lg hover:border-2 hover:border-blue-400"
+          >
+            <img
+              src="../assets/group1.svg"
+              class="w-20 p-3 bg-white rounded-full"
+              alt=""
+            />
+            <p class="font-semibold text-sm text-gray-500 text-center">Owners History</p>
+            <p
+              class="text-center font-semibold text-xs text-gray-900 tracking-tight text-center"
+            >
+              2+ Owners
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-full mt-4">
+      <div class="flex flex-col w-full">
+        <div class="px-5 md:px-0">
+          <h3 class="text-2xl font-semibold tracking-tight text-gray-900">
+            Vehicle Information
+          </h3>
+        </div>
+        <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+          <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-4">
+            <div class="overflow-hidden p-4">
+              <table class="min-w-full divide-y divide-gray-200 border-b">
+                <tbody class="">
+                  <tr class="py-4">
+                    <td class="border p-4">
+                      <span>Vin</span><br />
+                      <span class="font-bold py-4">Not Applicable</span>
+                    </td>
+                    <td class="border p-4">
+                      <span class="">Make</span><br />
+                      <span class="font-bold py-4">Not Applicable</span>
+                    </td>
+                    <td class="border p-4">
+                      <span class="">Model</span><br />
+                      <span class="font-bold py-4">Not Applicable</span>
+                    </td>
+                    <td class="border p-4">
+                      <span>Year</span><br />
+                      <span class="font-bold py-4">Not Applicable</span>
+                    </td>
+                    <td class="border p-4">
+                      <span class="">Drive type</span><br />
+                      <span class="font-bold py-4">Not Applicable</span>
+                    </td>
+                  </tr>
+                  <tr class="py-4 mt-4">
+                    <td class="border p-4">
+                      <span class="">Style/Body</span><br />
+                      <span class="font-bold py-4">Not Applicable</span>
+                    </td>
+                    <td class="border p-4">
+                      <span class="">Engine</span><br />
+                      <span class="font-bold py-4">Not Applicable</span>
+                    </td>
+                    <td class="border p-4" colspan="2">
+                      <span class="">Manufacturer</span><br />
+                      <span class="font-bold py-4"> Not Applicable</span>
+                    </td>
+                    <td class="border p-4">
+                      <span>Age</span><br />
+                      <span class="font-bold py-4"> Not Applicable</span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mx-0 lg:mx-0 white md:pt-5 p-5 md:p-0">
+      <div class="space-x-2 flex flex-col items-start mb-5">
+        <div class="">
+          <h3 class="text-2xl font-semibold tracking-tight text-gray-900">
+            Duty per Trim
+          </h3>
+        </div>
       </div>
       <table class="min-w-full block md:table border">
         <thead class="block md:table-header-group">
