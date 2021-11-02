@@ -18,7 +18,7 @@
     </div>
     <div class="px-0 md:px-0 my-10 md:m-0">
       <div
-        class="flex flex-wrap overflow-hidden p-5 md:p-0 lg:mb-10 cursor-pointer mx-5 lg:mx-0"
+        class="flex flex-wrap -mx-3 overflow-hidden p-5 md:p-0 lg:mb-10 cursor-pointer"
       >
         <div class="my-3 px-3 w-1/2 overflow-hidden sm:w-1/3 md:w-1/6 lg:w-1/6 xl:w-1/6">
           <!-- Column Content -->
