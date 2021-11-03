@@ -28,7 +28,7 @@
           /></span>
           Import Duty Range
         </h1>
-        <p class="font-medium text-xs text-gray-500 mb-10 tracking-tight">
+        <p class="font-medium text-xs text-gray-500 mb-10 tracking-tight text-center">
           Approximate price if you were to import this car to Ghana
         </p>
       </div>
@@ -65,7 +65,7 @@
                 </svg>
               </div>
               <div class="flex flex-col justify-center items-center">
-                <p class="font-bold text-2xl text-yellow-500">$6,600</p>
+                <p class="font-bold text-2xl text-yellow-500">$2,600</p>
                 <p class="text-xs font-semibold text-gray-500 tracking-tight text-center">
                   Minimum Duty for the 2021 Honda Accord
                 </p>
@@ -89,7 +89,7 @@
                 </svg>
               </div>
               <div class="flex flex-col justify-center items-center">
-                <p class="font-bold text-2xl text-green-500">$6,600</p>
+                <p class="font-bold text-2xl text-green-500">$3,800</p>
                 <p class="text-xs font-semibold text-gray-500 tracking-tight text-center">
                   Average Duty for the 2021 Honda Accord
                 </p>
@@ -113,7 +113,7 @@
                 </svg>
               </div>
               <div class="flex flex-col justify-center items-center">
-                <p class="font-bold text-2xl text-red-500">$6,600</p>
+                <p class="font-bold text-2xl text-red-500">$6,340</p>
                 <p class="text-xs font-semibold text-gray-500 tracking-tight text-center">
                   Maximum Duty for the 2021 Honda Accord
                 </p>
@@ -129,7 +129,7 @@
               <img src="../assets/car.png" class="w-32" alt="" />
             </div>
             <div class="flex flex-col justify-center items-center">
-              <p class="font-bold text-2xl text-blue-500">$6,600</p>
+              <p class="font-bold text-2xl text-blue-500">$4,300</p>
               <p class="text-xs font-semibold text-gray-500 tracking-tight text-center">
                 Common Duty for the 2021 Honda Accord
               </p>
@@ -237,25 +237,23 @@
               alt=""
             />
             <p class="font-semibold text-sm text-gray-500 text-center">Owners History</p>
-            <p
-              class="text-center font-semibold text-xs text-gray-900 tracking-tight text-center"
-            >
+            <p class="font-semibold text-xs text-gray-900 tracking-tight text-center">
               2+ Owners
             </p>
           </div>
         </div>
       </div>
     </div>
-    <div class="w-full mt-4">
+    <div class="w-full">
       <div class="flex flex-col w-full">
-        <div class="px-5 md:px-0">
+        <div class="px-5 md:px-0 mb-2">
           <h3 class="text-2xl font-semibold tracking-tight text-gray-900">
             Vehicle Information
           </h3>
         </div>
-        <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-          <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-4">
-            <div class="overflow-hidden p-4">
+        <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+          <div class="align-middle inline-block min-w-full sm:px-6 lg:px-4">
+            <div class="overflow-hidden px-4">
               <table class="min-w-full divide-y divide-gray-200 border-b">
                 <tbody class="">
                   <tr class="py-4">
@@ -305,15 +303,15 @@
         </div>
       </div>
     </div>
-    <div class="mx-0 lg:mx-0 white md:pt-5 p-5 md:p-0">
-      <div class="space-x-2 flex flex-col items-start mb-5">
+    <div class="mt-10 px-5 md:px-0">
+      <div class="space-x-2 flex flex-col items-start mb-2 md:px-0">
         <div class="">
           <h3 class="text-2xl font-semibold tracking-tight text-gray-900">
             Duty per Trim
           </h3>
         </div>
       </div>
-      <table class="min-w-full block md:table border">
+      <table class="w-full block md:table border md:mx-0">
         <thead class="block md:table-header-group">
           <tr
             class="block md:table-row absolute -top-full md:top-auto -left-full md:left-auto md:relative bg-gray-100 border-b-2"
