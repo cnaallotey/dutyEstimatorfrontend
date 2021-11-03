@@ -6,7 +6,7 @@
       <div
         class="flex flex-col md:flex-row items-center md:items-end flex-1 w-full space-x-0 md:space-x-4 space-y-4 md:space-y-0"
       >
-        <img src="../assets/resizer.jpg" class="w-64 mx-auto md:w-64 rounded-lg" alt="" />
+        <img src="../assets/resizer.jpg" class="w-64 mx-auto md:w-64" alt="" />
         <div
           class="text-center mx-auto w-full items-center justify-center text-white py-4 bg-blue-600 lg:rounded-none shadow-lg"
         >
