@@ -479,6 +479,30 @@
         <img src="../assets/icums.png" class="w-32 -ml-7" alt="" />
       </div>
     </div>
+    <!--print icon-->
+    <div class="sticky bottom-10 left-0 mb-4 mr-4 z-10">
+      <div class="flex flex-row-reverse space-x-4 items-center">
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M5 4v3H4a2 2 0 00-2 2v3a2 2 0 002 2h1v2a2 2 0 002 2h6a2 2 0 002-2v-2h1a2 2 0 002-2V9a2 2 0 00-2-2h-1V4a2 2 0 00-2-2H7a2 2 0 00-2 2zm8 0H7v3h6V4zm0 8H7v4h6v-4z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <p
+            class="text-md font-semibold tracking-tight text-gray-700 hidden lg:contents"
+          >
+            Print Page
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

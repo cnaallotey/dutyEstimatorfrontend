@@ -358,10 +358,27 @@
             </div>
             <div class="w-full">
               <button
+                @click="payment()"
+                v-if="!showpayment"
                 class="w-full bg-blue-600 text-white py-4 mt-5 hover:bg-blue-800 font-bold"
               >
                 View Report
               </button>
+              <form action="submit" class="w-full" v-if="!showIn">
+                <div class="flex flex-col w-full">
+                  <input
+                    type="email"
+                    class="px-4 py-4 border focus:outline-none text-lg font-base text-gray-900 focus:shadow-md"
+                    placeholder="Enter Email"
+                  />
+                  <button
+                    type="submit"
+                    class="bg-blue-600 text-white py-4 mt-5 hover:bg-blue-800 font-bold text-lg"
+                  >
+                    Pay
+                  </button>
+                </div>
+              </form>
               <p class="text-xs text-center mt-5 font-bold text-blue-600">
                 View example report
               </p>
@@ -387,5 +404,17 @@
 import duty from "./duty";
 export default {
   components: { duty },
+  data() {
+    return {
+      showPayment: false,
+      showIn: true,
+    };
+  },
+  methods: {
+    payment: function () {
+      this.showPayment = true;
+      this.showIn = false;
+    },
+  },
 };
 </script>
