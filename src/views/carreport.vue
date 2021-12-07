@@ -387,7 +387,7 @@
                 </tr>
               </thead>
               <tbody class="block md:table-row-group font-medium text-gray-500">
-                <tr class="bg-white block md:table-row">
+                <tr class="bg-white block md:table-row border-b-2 md:border-b-0">
                   <td
                     class="px-6 py-4 whitespace-nowrap text-left block md:table-cell tracking-tight"
                   >
