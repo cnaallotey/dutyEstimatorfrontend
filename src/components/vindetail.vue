@@ -197,7 +197,8 @@
             <div>
               <p class="text-sm font-medium tracking-tight text-gray-500">
                 Unlock the Full History Report for just
-                <span class="font-bold text-gray-900">$5.99</span> and get...
+                <span class="font-bold text-gray-900"> <span>Ghc</span> 5.99</span> and
+                get...
               </p>
             </div>
             <div class="flex items-center space-x-2">

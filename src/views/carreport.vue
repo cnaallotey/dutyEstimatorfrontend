@@ -70,7 +70,9 @@
                       </svg>
                     </div>
                     <div class="flex flex-col justify-center items-center">
-                      <p class="font-bold text-2xl text-yellow-500">$2,600</p>
+                      <p class="font-bold text-2xl text-yellow-500">
+                        <span class="text-lg">Ghc</span> 20,600
+                      </p>
                       <p
                         class="text-xs font-semibold text-gray-500 tracking-tight text-center"
                       >
@@ -96,7 +98,9 @@
                       </svg>
                     </div>
                     <div class="flex flex-col justify-center items-center">
-                      <p class="font-bold text-2xl text-green-500">$3,800</p>
+                      <p class="font-bold text-2xl text-green-500">
+                        <span class="text-lg">Ghc</span> 30,800
+                      </p>
                       <p
                         class="text-xs font-semibold text-gray-500 tracking-tight text-center"
                       >
@@ -122,7 +126,9 @@
                       </svg>
                     </div>
                     <div class="flex flex-col justify-center items-center">
-                      <p class="font-bold text-2xl text-red-500">$6,340</p>
+                      <p class="font-bold text-2xl text-red-500">
+                        <span class="text-lg">Ghc</span> 60,340
+                      </p>
                       <p
                         class="text-xs font-semibold text-gray-500 tracking-tight text-center"
                       >
@@ -140,7 +146,9 @@
                     <img src="../assets/car.png" class="w-32" alt="" />
                   </div>
                   <div class="flex flex-col justify-center items-center">
-                    <p class="font-bold text-2xl text-blue-500">$4,300</p>
+                    <p class="font-bold text-2xl text-blue-500">
+                      <span class="text-lg">Ghc</span> 40,300
+                    </p>
                     <p
                       class="text-xs font-semibold text-gray-500 tracking-tight text-center"
                     >
@@ -559,7 +567,7 @@
           <p
             class="text-md font-semibold tracking-tight text-gray-700 hidden lg:contents"
           >
-            Print Page
+            Print Report
           </p>
         </div>
       </div>

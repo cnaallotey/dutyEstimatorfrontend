@@ -113,7 +113,7 @@
                 </svg>
               </div>
               <div class="flex flex-col justify-center items-center">
-                <p class="font-bold text-2xl text-red-500">$6,340</p>
+                <p class="font-bold text-2xl text-red-500"><span>Ghc</span> 6,340</p>
                 <p class="text-xs font-semibold text-gray-500 tracking-tight text-center">
                   Maximum Duty for the 2021 Honda Accord
                 </p>
@@ -129,7 +129,7 @@
               <img src="../assets/car.png" class="w-32" alt="" />
             </div>
             <div class="flex flex-col justify-center items-center">
-              <p class="font-bold text-2xl text-blue-500">$4,300</p>
+              <p class="font-bold text-2xl text-blue-500"><span>Ghc</span> 4,300</p>
               <p class="text-xs font-semibold text-gray-500 tracking-tight text-center">
                 Common Duty for the 2021 Honda Accord
               </p>
